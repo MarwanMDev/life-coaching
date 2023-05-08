@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         raleway: ['Raleway', 'sans-serif'],
+        dancing: ['Dancing Script', 'cursive'],
       },
       backgroundImage: {
         'gradient-radial':
