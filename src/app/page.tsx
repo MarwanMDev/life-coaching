@@ -1,3 +1,4 @@
+import ContactForm from '@/components/ContactForm';
 import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
@@ -12,8 +13,12 @@ export default function Home() {
         <Hero />
       </section>
 
-      <section id="about" className="snap-center">
+      <section id="services" className="snap-center">
         <Services />
+      </section>
+
+      <section id="stay-connected" className="snap-center">
+        <ContactForm />
       </section>
     </div>
   );

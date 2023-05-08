@@ -11,11 +11,11 @@ const Services = () => {
       transition={{ duration: 1.5 }}
       className="relative mx-auto flex h-screen max-w-7xl flex-col items-center justify-evenly px-10 text-center md:flex-row md:text-left font-raleway"
     >
-      <h3 className="absolute top-36 text-xl uppercase tracking-[10px] text-[#343840] md:text-3xl md:tracking-[20px]">
-        Services
+      <h3 className="absolute top-36 text-xl uppercase font-thin tracking-[10px] text-[#343840] md:text-3xl md:tracking-[20px]">
+        Free Services
       </h3>
 
-      <div className="space-y-10 px-0 md:px-10 p-5 max-w-lg max-h-96 h-full text-center text-[#343840]">
+      <div className="space-y-10 px-0 md:px-10 p-5 max-w-lg max-h-96 h-full text-center text-[#343840] border border-[#e0aaaa]">
         <h3 className="text-3xl font-semibold">
           Download a{' '}
           <span className="underline decoration-[#e0aaaa]/50">

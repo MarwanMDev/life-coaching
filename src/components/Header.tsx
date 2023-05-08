@@ -19,7 +19,7 @@ export default function Header() {
           }}
           className="flex flex-row items-center cursor-pointer"
         >
-          <p className="hidden text-2xl tracking-wider font-bold uppercase text-[#343840] md:inline-flex font-raleway">
+          <p className="hidden text-2xl tracking-wider font-bold uppercase text-[#343840] md:inline-flex font-dancing">
             Life Coach School
           </p>
         </motion.div>
@@ -34,20 +34,29 @@ export default function Header() {
           transition={{
             duration: 1.5,
           }}
-          className="flex flex-row items-center space-x-2"
+          className="flex flex-row items-center space-x-4"
         >
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out font-raleway">
-            About
-          </p>
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
-            Contact
-          </p>
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
-            Blogs
-          </p>
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
-            Our Resources
-          </p>
+          <a
+            href="#hero"
+            className="group text-[#343840] transition duration-300"
+          >
+            Home
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
+          <a
+            href="#services"
+            className="group text-[#343840] transition duration-300"
+          >
+            Free Services
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
+          <a
+            href="#stay-connected"
+            className="group text-[#343840] transition duration-300"
+          >
+            Stay Connected
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
           <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
             Book Free Consultation
           </p>
