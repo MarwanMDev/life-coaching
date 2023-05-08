@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Header() {
   return (
-    <header className="sticky top-0 z-20 flex flex-row items-center justify-center w-full p-5 bg-[#d1c59c] h-28 shadow">
+    <header className="sticky top-0 z-20 flex flex-row items-center justify-center w-full p-5 bg-[#d1c59c] h-28 shadow-lg border-b border-b-[#e0aaaa]">
       <div className="flex flex-row mx-auto max-w-7xl w-full items-start justify-between xl:items-center">
         <motion.div
           initial={{
@@ -57,12 +57,20 @@ export default function Header() {
             Stay Connected
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
           </a>
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
+          <a
+            href="#"
+            className="group text-[#343840] transition duration-300"
+          >
             Book Free Consultation
-          </p>
-          <p className="hidden text-sm uppercase text-[#343840] md:inline-flex cursor-pointer hover:font-bold transition duration-300 ease-in-out">
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
+          <a
+            href="#"
+            className="group text-[#343840] transition duration-300"
+          >
             Log In
-          </p>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
         </motion.div>
       </div>
     </header>
