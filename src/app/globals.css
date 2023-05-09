@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .contactInput {
+    @apply rounded-sm bg-slate-400/10 text-sm text-[#343840] placeholder-gray-500 outline-none transition-all autofill:bg-gray-500 md:py-4;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

@@ -51,6 +51,13 @@ export default function Header() {
             <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
           </a>
           <a
+            href="#testimonials"
+            className="group text-[#343840] transition duration-300"
+          >
+            Testimonials
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-[#343840]"></span>
+          </a>
+          <a
             href="#stay-connected"
             className="group text-[#343840] transition duration-300"
           >

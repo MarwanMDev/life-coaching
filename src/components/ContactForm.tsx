@@ -13,7 +13,7 @@ const ContactForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { isValid, errors, isSubmitting },
+    formState: { errors, isSubmitting },
   } = useForm<Inputs>({
     defaultValues: {
       name: '',
