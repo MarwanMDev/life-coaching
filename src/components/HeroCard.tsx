@@ -8,7 +8,7 @@ const HeroCard = () => {
       whileInView={{ opacity: 1 }}
       viewport={{ once: true }}
       transition={{ duration: 1.5 }}
-      className="block bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[#343840]/90 max-w-xl font-raleway"
+      className="border border-[#e0aaaa] block bg-white text-center shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[#343840]/90 max-w-xl font-raleway"
     >
       <div className="border-b-2 px-6 py-3 dark:border-neutral-600 dark:text-neutral-50 shadow-lg">
         <h2 className="text-4xl tracking-wider">LIFE COACH SCHOOL</h2>
